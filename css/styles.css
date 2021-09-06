@@ -1,0 +1,13 @@
+.grid {
+    margin-top: 5%;
+    text-align: center;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(4, 33.33%);
+    grid-gap: 25px;
+}
+
+#searchbar {
+    padding: 10px 335px 15px 10px;
+}
