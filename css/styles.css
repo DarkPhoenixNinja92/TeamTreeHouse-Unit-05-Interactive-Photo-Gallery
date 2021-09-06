@@ -6,8 +6,12 @@
     grid-template-columns: repeat(3, 25%);
     grid-template-columns: repeat(4, 33.33%);
     grid-gap: 25px;
+    position: relative;
+    left: 18%;
 }
 
 #searchbar {
     padding: 10px 335px 15px 10px;
+    left: 35%;
+    position: relative;
 }

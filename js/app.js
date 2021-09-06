@@ -1,3 +1,5 @@
+baguetteBox.run('.grid');
+
 function search_img() {
     let input = document.getElementById("searchbar").value;
     input = input.toLowerCase();
