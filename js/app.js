@@ -3,13 +3,13 @@ baguetteBox.run('.grid');
 function search_img() {
     let input = document.getElementById("searchbar").value;
     input = input.toLowerCase();
-    let valX = document.getElementsByClassName("item");
+    let images = document.getElementsByClassName("item");
 
-    for (let i = 0; i < valX.length; i++) {
-        if (!valX[i].innerHTML.toLowerCase().includes(input)) {
-            valX[i].style.display = "none";
+    for (let i = 0; i < images.length; i++) {
+        if (!images[i].innerHTML.toLowerCase().includes(input)) {
+            images[i].style.display = "none";
         } else {
-            valX[i].style.display = "";
+            images[i].style.display = "";
         }
     }
 }
